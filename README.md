@@ -7,7 +7,7 @@ https://nodejs.org/en/download/
 
 2° Instalar o Angular CLI (a partir daqui, utilizando o PowerShell do Windows ou o terminal do linux)
 >   npm install -g @angular/cli
-=====================================================
+
 Em seguida...
 
 1. Baixe o repositório:
