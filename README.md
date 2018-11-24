@@ -22,6 +22,25 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1° Instalar o NodeJS:
+https://nodejs.org/en/download/
+
+2° Instalar o Angular CLI (a partir daqui, utilizando o PowerShell do Windows ou o terminal do linux)
+>   npm install -g @angular/cli
+
+=====================================================
+
+Em seguida...
+
+1. Baixe o repositório:
+>   git clone https://github.com/victorlira/exemplo_angular.git
+
+2. Entre na pasta do projeto:
+>   cd exemplo_angular
+
+3. Instale as dependências:
+>   npm install
+
+4. Rode o projeto:
+>   ng serve
