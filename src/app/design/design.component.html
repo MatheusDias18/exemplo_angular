@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <div id="header"><img height="150px" width="100%" src="https://raw.githubusercontent.com/ifpe-cti/pmgus/master/src/main/webapp/imagens/CimaPMGus.jpg"></div>
+
+  <div id="login" *ngIf="registerView == 'regView0'">
+    <div class="row">
+      <div id="content-login">
+        <div class="card white">
+          <i class="large material-icons" id="icone-login">account_circle</i>
+          <div class="card-content black-text" id="card-dentro">
+            <span class="card-title">Login</span>
+            <p>Email:</p>
+            <input type="text" class="texto-login" width="10%">
+            <p>Senha:</p>
+            <input type="text" class="texto-login" width="10%">
+          </div>
+          <div class="card-action">
+            <button (click)="login()">Logar</button>
+          </div>
+        </div>
+      </div>
+      <img id="imagem-login" src="https://www.redebrasilatual.com.br/politica/2014/07/2o-batalhao-antiterrorismo-da-pm-atuara-em-33-municipios-do-litoral-e-do-vale-do-ribeira-1027.html/geraldo/image_large">
+    </div>
+  </div>
+
+  <div id="menu" *ngIf="registerView == 'regView1'">
+    <img id="img-button" src="https://raw.githubusercontent.com/ifpe-cti/pmgus/master/src/main/webapp/imagens/pmgusDivPACTOPELAVIDA.jpg">
+    <img id="img-button" src="https://raw.githubusercontent.com/ifpe-cti/pmgus/master/src/main/webapp/imagens/pmgusDivCVLI.jpg"
+      (click)="cvli()">
+    <img id="img-button" src="https://raw.githubusercontent.com/ifpe-cti/pmgus/master/src/main/webapp/imagens/pmgusDivCVP.jpg">
+    <img id="img-button" src="https://raw.githubusercontent.com/ifpe-cti/pmgus/master/src/main/webapp/imagens/pmgusDivBOWEB.jpg">
+  </div>
+
+  <div class="cvli" *ngIf="registerView == 'regView2'">
+    <button (click)="cadastrar()">Cadastrar</button>
+    <button (click)="home()">Logout</button>
+  </div>
+  <div id="footer"><img height="150px" width="100%" src="https://raw.githubusercontent.com/ifpe-cti/pmgus/master/src/main/webapp/imagens/BaixoPMGus.jpg"></div>
+</body>
+
+</html>

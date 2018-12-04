@@ -11,12 +11,14 @@ import { environment } from '../environments/environment';
 import { AngularFireDatabase } from '@angular/fire/database';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ContatosComponent } from './contatos/contatos.component';
+import { DesignComponent } from './design/design.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsuariosComponent,
-    ContatosComponent
+    ContatosComponent,
+    DesignComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import { ContatosComponent } from './contatos/contatos.component';
     AngularFireModule.initializeApp(environment.firebase),
     RouterModule.forRoot([
       { path: 'usuarios', component: UsuariosComponent },
-      { path: 'contatos', component: ContatosComponent }
+      { path: 'contatos', component: ContatosComponent },
+      { path: 'design', component: DesignComponent }
     ])
   ],
   providers: [AngularFireDatabase],

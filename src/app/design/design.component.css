@@ -1,0 +1,37 @@
+#icone-login{
+    float: left;
+}
+
+#card-dentro{
+    width: 90%;
+    margin-left: 10%;
+}
+
+#imagem-login{
+    margin-top: 0.4%;
+    width: 25%;
+    height: 25%;
+}
+
+#img-button{
+width: 25%;
+height: 25%;
+cursor: pointer;
+}
+
+.texto-login{
+    width: 40%;
+}
+
+.card{
+    width: 30%;
+    float: left;
+}
+
+.cvli{
+    
+}
+
+body{
+    background: blue;
+}
